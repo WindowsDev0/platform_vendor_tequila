@@ -3,8 +3,8 @@ $(call inherit-product, vendor/tequila/config/common_full.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
-    LatinIME
-
+    LatinIME \
+    PolskiSwiat
 # Include tequila LatinIME dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/tequila/overlay/dictionaries
 
